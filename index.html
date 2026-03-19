@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial de futbol</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+      <h1>Mundial de Futbol 2026:USA, Mexico y Canada</h1>
+    </header>
+    <!-- Contenido de la página -->
+    <main>
+      <!-- Apartado en el que se habla del mundial -->
+        <section>
+          <h2>Introducción al mundial 🗺</h2>
+          <p>El Copa Mundial de la FIFA 2026 será una edición histórica del torneo más importante del fútbol, ya que por primera vez se celebrará en tres países: Estados Unidos, México y Canadá, además de contar con un formato ampliado a 48 selecciones, lo que permitirá una mayor representación global y más partidos que en cualquier edición anterior; el campeonato reunirá a miles de aficionados en estadios modernos y generará un enorme impacto económico, cultural y deportivo, consolidándose como uno de los eventos más esperados del mundo y una vitrina para que nuevas figuras del fútbol brillen en el escenario internacional.
+          </p>
+          <img src="./maxresdefault.jpg.jpeg" alt="Imagen de la copa 2026" width="400" height="250">
+        </section>
+        <!-- Lista ordenada -->
+        <section>
+            <h2>Selecciones más ganadoras</h2>
+            <ol>
+               <li>Brasil (5 Copas)</li>
+               <li>Alemania (4 Copas)</li>
+               <li>Italia (4 Copas)</li>
+               <li>Argentina (3 Copas)</li>
+               <li>Francia (2 Copas)</li>
+            </ol>
+        </section>
+        <!-- Lista desordenada -->
+        <section>
+            <h2>Paises anfitriones y los estadios</h2>
+            <ul>
+                <li>México</li>
+                  <ul>
+                    <li>Estadio Azteca (Ciudad de México)</li>
+                    <li>Estadio Akron (Guadalajara)</li>
+                    <li>Estadio BBVA (Monterrey)</li>
+                  </ul>
+                <li>Estados Unidos</li>
+                 <ul>
+                    <li>MetLife Stadium (Nueva York/Nueva Jersey)</li>
+                    <li>SoFi Stadium (Los Ángeles)</li>
+                    <li>AT&T Stadium (Dallas)</li>
+                    <li>Mercedes-Benz Stadium (Atlanta)</li>
+                    <li>Levi’s Stadium (San Francisco)</li>
+                    <li>Lumen Field (Seattle)</li>
+                    <li>NRG Stadium (Houston)</li>
+                    <li>Lincoln Financial Field (Filadelfia)</li>
+                    <li>Gillette Stadium (Boston)</li>
+                    <li>Hard Rock Stadium (Miami)</li>
+                    <li>Arrowhead Stadium (Kansas City)</li>
+                 </ul>
+                <li>Canada</li>
+                 <ul>
+                    <li>BMO Field (Toronto)</li>
+                    <li>BC Place (Vancouver)</li> 
+                 </ul>
+            </ul>
+        </section>
+        <!-- Tabla -->
+        <section>
+            <h2>Cronograma de la fase de grupos</h2>
+            <table border="2" cellspacing="0">
+                <!-- Fila de los titulos -->
+                <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Hora</th>
+                            <th>Enfrentamiento</th>
+                            <th>Estadio</th>
+                            <th>Grupo</th>
+                        </tr>    
+                </thead>
+                <!-- Info de los partidos -->
+                 <tbody>
+                    <tr>
+                        <td rowspan="2">11 de junio</td>
+                        <td>3:00PM</td>
+                        <td>Mexico vs Sudafrica</td>
+                        <td>Estadio Azteca (Ciudad de México)</td>
+                        <td rowspan="2">Grupo A</td>
+                    </tr>
+                    <tr>
+                        <td>8:00PM</td>
+                        <td>Korea vs Dinamarca</td>
+                        <td rowspan="2">Estadio Akron (Guadalajara)</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">12 de junio</td>
+                        <td>3:00PM</td>
+                        <td>Canada vs Bosnia</td>
+                        <td>Grupo B</td>
+                    </tr>
+                    <tr>
+                        <td>9:00PM</td>
+                        <td>USA vs Paraguay</td>
+                        <td>SoFi Stadium (Los Ángeles)</td>
+                        <td>Grupo D</td>
+                    </tr>
+                 </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Predicción del ganador</h2>
+            <form action="#">
+               <!-- Campo de nombre -->
+               <div>
+                <label for="name">Escribe tú nombre:</label>
+                <br>
+                <input type="text" name="name" id="name">
+               </div>
+               <!-- Campo de correo -->
+               <div>
+                <label for="email">Escribe tú correo:</label>
+                <br>
+                <input type="email" name="email" id="email">
+               </div>
+               <!-- Campo de predicción -->
+               <div>
+                <label for="ganador">¿Quién sera el ganador del proximo mundial?</label>
+                <br>
+                <select name="ganador" id="ganador">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Francia">Francia</option>
+                    <option value="España">España</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Otro">Otra (Tu seleccion es irrelevante)</option>
+                </select>
+               </div>
+               <br>
+               <button type="submit">Enviar predicción</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
